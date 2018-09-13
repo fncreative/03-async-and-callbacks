@@ -7,6 +7,9 @@ Daniel Frey
 ## Version
 1.0
 
+## Travis CI
+[![Build Status](https://travis-ci.com/fncreative/03-async-and-callbacks.svg?branch=master)](https://travis-ci.com/fncreative/03-async-and-callbacks)
+
 ## Resources
 * [fs module docs](https://nodejs.org/api/fs.html)
 
