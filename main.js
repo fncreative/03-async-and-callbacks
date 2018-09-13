@@ -30,7 +30,7 @@ const readFileArray = (fileArray, currentIndex, callback) => {
   return undefined;
 };
 
-readFileArray(files, 10, () => {
+readFileArray(files, () => {
   console.log('All files are belong to us');
   console.log(files);
 });

@@ -6,21 +6,21 @@ describe('this test will read files', () => {
   test('bacon ipsum', (done) => {
     reader.read(`${__dirname}/../data/bacon.txt`, (err, data) => {
       expect(err).toBeNull();
-      expect(data).toEqual('beye buffa');
+      expect(data).toEqual('Bacon ipsum dolor');
       done();
     });
   });
   test('cat ipsum', (done) => {
     reader.read(`${__dirname}/../data/cat.txt`, (err, data) => {
       expect(err).toBeNull();
-      expect(data).toEqual('stume in s');
+      expect(data).toEqual('Cat ipsum dolor sit amet, disappear');
       done();
     });
   });
   test('Social change ipsum', (done) => {
     reader.read(`${__dirname}/../data/social.txt`, (err, data) => {
       expect(err).toBeNull();
-      expect(data).toEqual('ble the re');
+      expect(data).toEqual('Parse replicable commitment');
       done();
     });
   });
